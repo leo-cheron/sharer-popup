@@ -1,27 +1,39 @@
-# Element index
+# Sharer popup
 
-HTMLElement DOM tree position as a proto function.
+A sharer popup manager for the main social networks (Facebook, Twitter, Linkedin)
 
 ## Installation
 
 ```
-npm i element-index --save
+npm i sharer-popup --save
 ```
+
+## Params
+### type
+Social network, can be one of the following:
+- "facebook"
+- "twitter"
+- "linkedin"
+
+### title
+Sharer title (facebook).
+
+### text
+Sharer description (facebook, twitter).
+
+### source
+Sharer source (linkedin).
+
+### url
+Shared url.
 
 ## Usage
 
-### HTML
-```
-<ul>
-	<li></li>
-	<li></li>
-	<li class="is-active"></li>
-</ul>
-```
-
 ### JS
 ```
-import 'element-index';
+import share from 'sharer-popup';
 
-document.querySelector('.is-active').index(); // returns 2
+share('facebook'); // opens Facebook sharer
+share('twitter'); // opens Twitter sharer
+share('linkedin'); // opens Linkedin sharer
 ```
