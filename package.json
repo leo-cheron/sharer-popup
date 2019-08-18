@@ -1,0 +1,19 @@
+{
+  "name": "sharer-popup",
+  "version": "1.0.0",
+  "description": "A sharer popup manager for the main social networks (Facebook, Twitter, Linkedin)",
+  "main": "index.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/mrgnou/sharer-popup.git"
+  },
+  "keywords": [
+	"vanilla",
+    "sharer",
+    "social",
+    "linkedin",
+    "facebook",
+    "twitter"
+  ],
+  "license": "MIT"
+}
