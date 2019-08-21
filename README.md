@@ -9,6 +9,11 @@ npm i sharer-popup --save
 ```
 
 ## Params
+
+```
+share(type, title = "", text = "", source = null, url = null)
+```
+
 ### type
 Social network, can be one of the following:
 - "facebook"
