@@ -10,7 +10,7 @@ npm i sharer-popup --save
 
 ## Params
 
-```
+```javascript
 share(type, title = "", text = "", source = null, url = null)
 ```
 
@@ -32,10 +32,10 @@ Sharer source (linkedin).
 ### url
 Shared url.
 
-## Usage
+## Implementation
 
 ### JS
-```
+```javascript
 import share from 'sharer-popup';
 
 share('facebook'); // opens Facebook sharer
