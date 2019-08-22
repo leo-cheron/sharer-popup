@@ -1,0 +1,4 @@
+jsconfig.json
+
+*.DS_store
+.DS_store?
